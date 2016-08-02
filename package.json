@@ -1,0 +1,67 @@
+{
+  "name": "ember-lodash-shim",
+  "version": "0.0.0",
+  "description": "Immutable data structures for Ember apps",
+  "directories": {
+    "doc": "doc",
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "ember build",
+    "lint": "npm run lint-js && npm run lint-md",
+    "lint-js": "eslint *.js addon app blueprints config tests",
+    "lint-md": "remark *.md",
+    "start": "ember server",
+    "test": "npm run lint && ember test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ciena-blueplanet/ember-lodash-shim.git"
+  },
+  "homepage": "https://github.com/ciena-blueplanet/ember-lodash-shim",
+  "engines": {
+    "node": ">= 5.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/ciena-blueplanet/ember-lodash-shim/issues"
+  },
+  "author": "Matthew Dahl (https://github.com/sandersky)",
+  "license": "MIT",
+  "devDependencies": {
+    "broccoli-asset-rev": "^2.4.2",
+    "ember-cli": "^2.7.0",
+    "ember-cli-app-version": "^1.0.0",
+    "ember-cli-dependency-checker": "^1.2.0",
+    "ember-cli-htmlbars-inline-precompile": "^0.3.1",
+    "ember-cli-inject-live-reload": "^1.4.0",
+    "ember-cli-mocha": "0.10.4",
+    "ember-cli-test-loader": "^1.1.0",
+    "ember-cli-uglify": "^1.2.0",
+    "ember-disable-prototype-extensions": "^1.1.0",
+    "ember-export-application-global": "^1.0.5",
+    "ember-load-initializers": "^0.5.1",
+    "ember-resolver": "^2.0.3",
+    "eslint": "^3.2.0",
+    "eslint-config-frost-standard": "^3.0.0",
+    "loader.js": "^4.0.1",
+    "lodash-es": "^4.14.1",
+    "remark-cli": "^1.0.0",
+    "remark-lint": "^4.0.0"
+  },
+  "keywords": [
+    "ember-addon",
+    "lodash",
+    "lodash-es"
+  ],
+  "dependencies": {
+    "broccoli-replace": "^0.12.0",
+    "ember-cli-babel": "^5.1.6",
+    "ember-cli-htmlbars": "^1.0.1"
+  },
+  "ember-addon": {
+    "after": [
+      "ember-lodash"
+    ],
+    "configPath": "tests/dummy/config"
+  }
+}
