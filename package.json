@@ -1,7 +1,7 @@
 {
   "name": "ember-lodash-shim",
   "version": "0.0.0",
-  "description": "Immutable data structures for Ember apps",
+  "description": "Lodash for Ember apps",
   "directories": {
     "doc": "doc",
     "test": "tests"
