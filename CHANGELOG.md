@@ -1,3 +1,8 @@
+# 0.1.0
+
+* Initial implementation and release.
+
+
 # 0.2.1
 
 * **Fixed** usage in README.
