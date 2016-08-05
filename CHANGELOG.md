@@ -1,3 +1,9 @@
+# 0.1.4
+
+* Maintaining import paths from `lodash` version 3.x which is used by `ember-lodash` to prevent build issues with addons using those import paths.
+
+
+
 # 0.1.3
 No CHANGELOG section found in Pull Request description.
 Use a `# CHANGELOG` section in your Pull Request description to auto-populate the `CHANGELOG.md`
