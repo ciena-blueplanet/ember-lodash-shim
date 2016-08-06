@@ -43,7 +43,7 @@
     "ember-resolver": "^2.0.3",
     "eslint": "^3.2.0",
     "eslint-config-frost-standard": "^3.0.0",
-    "loader.js": "^4.0.1",
+    "loader.js": "^4.0.11",
     "lodash-es": "^4.14.1",
     "remark-cli": "^1.0.0",
     "remark-lint": "^4.1.0"
