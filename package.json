@@ -1,6 +1,6 @@
 {
   "name": "ember-lodash-shim",
-  "version": "0.1.4",
+  "version": "0.1.8",
   "description": "Lodash for Ember apps",
   "directories": {
     "doc": "doc",
@@ -28,9 +28,9 @@
   "author": "Matthew Dahl (https://github.com/sandersky)",
   "license": "MIT",
   "devDependencies": {
-    "broccoli-asset-rev": "^2.4.2",
+    "broccoli-asset-rev": "^2.4.6",
     "ember-cli": "^2.7.0",
-    "ember-cli-app-version": "^1.0.0",
+    "ember-cli-app-version": "^2.0.0",
     "ember-cli-dependency-checker": "^1.2.0",
     "ember-cli-htmlbars-inline-precompile": "^0.3.1",
     "ember-cli-inject-live-reload": "^1.4.0",
@@ -43,8 +43,8 @@
     "ember-resolver": "^2.0.3",
     "eslint": "^3.2.0",
     "eslint-config-frost-standard": "^3.0.0",
-    "loader.js": "^4.0.1",
-    "lodash-es": "^4.14.1",
+    "loader.js": "^4.0.11",
+    "lodash-es": "^4.14.2",
     "remark-cli": "^1.0.0",
     "remark-lint": "^4.1.0"
   },
