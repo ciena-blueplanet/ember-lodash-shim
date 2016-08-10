@@ -1,3 +1,7 @@
+# 0.1.11
+No CHANGELOG section found in Pull Request description.
+Use a `# CHANGELOG` section in your Pull Request description to auto-populate the `CHANGELOG.md`
+
 # 0.1.10
 
 * **Added** file to make `import isFunction from 'lodash/lang/isFunction'` work from legacy lodash 3 code.
