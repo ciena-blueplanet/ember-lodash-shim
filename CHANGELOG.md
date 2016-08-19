@@ -1,3 +1,8 @@
+# 1.0.0
+
+* **Updated** blueprint to install `lodash` version `4.15.0`.
+
+
 # 0.1.18
 No CHANGELOG section found in Pull Request description.
 Use a `# CHANGELOG` section in your Pull Request description to auto-populate the `CHANGELOG.md`
