@@ -1,3 +1,9 @@
+# 1.0.1
+
+* **Updated** Travis configuration to test addon against older versions of Ember.
+
+
+
 # 1.0.0
 
 * **Updated** blueprint to install `lodash` version `4.15.0`.
