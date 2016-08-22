@@ -46,7 +46,7 @@
     "loader.js": "^4.0.11",
     "lodash-es": "^4.15.0",
     "remark-cli": "^1.0.0",
-    "remark-lint": "^4.2.0"
+    "remark-lint": "^5.0.0"
   },
   "keywords": [
     "ember-addon",
