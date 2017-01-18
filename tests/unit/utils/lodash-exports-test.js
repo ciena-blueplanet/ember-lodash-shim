@@ -643,1286 +643,1286 @@ describe('lodash', function () {
     })
 
   it('exports add', function () {
-    expect(add).to.be.defined
+    expect(add).not.to.equal(undefined)
   })
 
   it('exports after', function () {
-    expect(after).to.be.defined
+    expect(after).not.to.equal(undefined)
   })
 
   it('exports ary', function () {
-    expect(ary).to.be.defined
+    expect(ary).not.to.equal(undefined)
   })
 
   it('exports assign', function () {
-    expect(assign).to.be.defined
+    expect(assign).not.to.equal(undefined)
   })
 
   it('exports assignIn', function () {
-    expect(assignIn).to.be.defined
+    expect(assignIn).not.to.equal(undefined)
   })
 
   it('exports assignInWith', function () {
-    expect(assignInWith).to.be.defined
+    expect(assignInWith).not.to.equal(undefined)
   })
 
   it('exports assignWith', function () {
-    expect(assignWith).to.be.defined
+    expect(assignWith).not.to.equal(undefined)
   })
 
   it('exports at', function () {
-    expect(at).to.be.defined
+    expect(at).not.to.equal(undefined)
   })
 
   it('exports attempt', function () {
-    expect(attempt).to.be.defined
+    expect(attempt).not.to.equal(undefined)
   })
 
   it('exports before', function () {
-    expect(before).to.be.defined
+    expect(before).not.to.equal(undefined)
   })
 
   it('exports bind', function () {
-    expect(bind).to.be.defined
+    expect(bind).not.to.equal(undefined)
   })
 
   it('exports bindAll', function () {
-    expect(bindAll).to.be.defined
+    expect(bindAll).not.to.equal(undefined)
   })
 
   it('exports bindKey', function () {
-    expect(bindKey).to.be.defined
+    expect(bindKey).not.to.equal(undefined)
   })
 
   it('exports camelCase', function () {
-    expect(camelCase).to.be.defined
+    expect(camelCase).not.to.equal(undefined)
   })
 
   it('exports capitalize', function () {
-    expect(capitalize).to.be.defined
+    expect(capitalize).not.to.equal(undefined)
   })
 
   it('exports castArray', function () {
-    expect(castArray).to.be.defined
+    expect(castArray).not.to.equal(undefined)
   })
 
   it('exports ceil', function () {
-    expect(ceil).to.be.defined
+    expect(ceil).not.to.equal(undefined)
   })
 
   it('exports chain', function () {
-    expect(chain).to.be.defined
+    expect(chain).not.to.equal(undefined)
   })
 
   it('exports chunk', function () {
-    expect(chunk).to.be.defined
+    expect(chunk).not.to.equal(undefined)
   })
 
   it('exports clamp', function () {
-    expect(clamp).to.be.defined
+    expect(clamp).not.to.equal(undefined)
   })
 
   it('exports clone', function () {
-    expect(clone).to.be.defined
+    expect(clone).not.to.equal(undefined)
   })
 
   it('exports cloneDeep', function () {
-    expect(cloneDeep).to.be.defined
+    expect(cloneDeep).not.to.equal(undefined)
   })
 
   it('exports cloneDeepWith', function () {
-    expect(cloneDeepWith).to.be.defined
+    expect(cloneDeepWith).not.to.equal(undefined)
   })
 
   it('exports cloneWith', function () {
-    expect(cloneWith).to.be.defined
+    expect(cloneWith).not.to.equal(undefined)
   })
 
   it('exports commit', function () {
-    expect(commit).to.be.defined
+    expect(commit).not.to.equal(undefined)
   })
 
   it('exports compact', function () {
-    expect(compact).to.be.defined
+    expect(compact).not.to.equal(undefined)
   })
 
   it('exports concat', function () {
-    expect(concat).to.be.defined
+    expect(concat).not.to.equal(undefined)
   })
 
   it('exports cond', function () {
-    expect(cond).to.be.defined
+    expect(cond).not.to.equal(undefined)
   })
 
   it('exports conforms', function () {
-    expect(conforms).to.be.defined
+    expect(conforms).not.to.equal(undefined)
   })
 
   it('exports conformsTo', function () {
-    expect(conformsTo).to.be.defined
+    expect(conformsTo).not.to.equal(undefined)
   })
 
   it('exports constant', function () {
-    expect(constant).to.be.defined
+    expect(constant).not.to.equal(undefined)
   })
 
   it('exports countBy', function () {
-    expect(countBy).to.be.defined
+    expect(countBy).not.to.equal(undefined)
   })
 
   it('exports create', function () {
-    expect(create).to.be.defined
+    expect(create).not.to.equal(undefined)
   })
 
   it('exports curry', function () {
-    expect(curry).to.be.defined
+    expect(curry).not.to.equal(undefined)
   })
 
   it('exports curryRight', function () {
-    expect(curryRight).to.be.defined
+    expect(curryRight).not.to.equal(undefined)
   })
 
   it('exports debounce', function () {
-    expect(debounce).to.be.defined
+    expect(debounce).not.to.equal(undefined)
   })
 
   it('exports deburr', function () {
-    expect(deburr).to.be.defined
+    expect(deburr).not.to.equal(undefined)
   })
 
   it('exports defaultTo', function () {
-    expect(defaultTo).to.be.defined
+    expect(defaultTo).not.to.equal(undefined)
   })
 
   it('exports defaults', function () {
-    expect(defaults).to.be.defined
+    expect(defaults).not.to.equal(undefined)
   })
 
   it('exports defaultsDeep', function () {
-    expect(defaultsDeep).to.be.defined
+    expect(defaultsDeep).not.to.equal(undefined)
   })
 
   it('exports defer', function () {
-    expect(defer).to.be.defined
+    expect(defer).not.to.equal(undefined)
   })
 
   it('exports delay', function () {
-    expect(delay).to.be.defined
+    expect(delay).not.to.equal(undefined)
   })
 
   it('exports difference', function () {
-    expect(difference).to.be.defined
+    expect(difference).not.to.equal(undefined)
   })
 
   it('exports differenceBy', function () {
-    expect(differenceBy).to.be.defined
+    expect(differenceBy).not.to.equal(undefined)
   })
 
   it('exports differenceWith', function () {
-    expect(differenceWith).to.be.defined
+    expect(differenceWith).not.to.equal(undefined)
   })
 
   it('exports divide', function () {
-    expect(divide).to.be.defined
+    expect(divide).not.to.equal(undefined)
   })
 
   it('exports drop', function () {
-    expect(drop).to.be.defined
+    expect(drop).not.to.equal(undefined)
   })
 
   it('exports dropRight', function () {
-    expect(dropRight).to.be.defined
+    expect(dropRight).not.to.equal(undefined)
   })
 
   it('exports dropRightWhile', function () {
-    expect(dropRightWhile).to.be.defined
+    expect(dropRightWhile).not.to.equal(undefined)
   })
 
   it('exports dropWhile', function () {
-    expect(dropWhile).to.be.defined
+    expect(dropWhile).not.to.equal(undefined)
   })
 
   it('exports each', function () {
-    expect(each).to.be.defined
+    expect(each).not.to.equal(undefined)
   })
 
   it('exports eachRight', function () {
-    expect(eachRight).to.be.defined
+    expect(eachRight).not.to.equal(undefined)
   })
 
   it('exports endsWith', function () {
-    expect(endsWith).to.be.defined
+    expect(endsWith).not.to.equal(undefined)
   })
 
   it('exports entries', function () {
-    expect(entries).to.be.defined
+    expect(entries).not.to.equal(undefined)
   })
 
   it('exports entriesIn', function () {
-    expect(entriesIn).to.be.defined
+    expect(entriesIn).not.to.equal(undefined)
   })
 
   it('exports eq', function () {
-    expect(eq).to.be.defined
+    expect(eq).not.to.equal(undefined)
   })
 
   it('exports escape', function () {
-    expect(escape).to.be.defined
+    expect(escape).not.to.equal(undefined)
   })
 
   it('exports escapeRegExp', function () {
-    expect(escapeRegExp).to.be.defined
+    expect(escapeRegExp).not.to.equal(undefined)
   })
 
   it('exports every', function () {
-    expect(every).to.be.defined
+    expect(every).not.to.equal(undefined)
   })
 
   it('exports extend', function () {
-    expect(extend).to.be.defined
+    expect(extend).not.to.equal(undefined)
   })
 
   it('exports extendWith', function () {
-    expect(extendWith).to.be.defined
+    expect(extendWith).not.to.equal(undefined)
   })
 
   it('exports fill', function () {
-    expect(fill).to.be.defined
+    expect(fill).not.to.equal(undefined)
   })
 
   it('exports filter', function () {
-    expect(filter).to.be.defined
+    expect(filter).not.to.equal(undefined)
   })
 
   it('exports find', function () {
-    expect(find).to.be.defined
+    expect(find).not.to.equal(undefined)
   })
 
   it('exports findIndex', function () {
-    expect(findIndex).to.be.defined
+    expect(findIndex).not.to.equal(undefined)
   })
 
   it('exports findKey', function () {
-    expect(findKey).to.be.defined
+    expect(findKey).not.to.equal(undefined)
   })
 
   it('exports findLast', function () {
-    expect(findLast).to.be.defined
+    expect(findLast).not.to.equal(undefined)
   })
 
   it('exports findLastIndex', function () {
-    expect(findLastIndex).to.be.defined
+    expect(findLastIndex).not.to.equal(undefined)
   })
 
   it('exports findLastKey', function () {
-    expect(findLastKey).to.be.defined
+    expect(findLastKey).not.to.equal(undefined)
   })
 
   it('exports first', function () {
-    expect(first).to.be.defined
+    expect(first).not.to.equal(undefined)
   })
 
   it('exports flatMap', function () {
-    expect(flatMap).to.be.defined
+    expect(flatMap).not.to.equal(undefined)
   })
 
   it('exports flatMapDeep', function () {
-    expect(flatMapDeep).to.be.defined
+    expect(flatMapDeep).not.to.equal(undefined)
   })
 
   it('exports flatMapDepth', function () {
-    expect(flatMapDepth).to.be.defined
+    expect(flatMapDepth).not.to.equal(undefined)
   })
 
   it('exports flatten', function () {
-    expect(flatten).to.be.defined
+    expect(flatten).not.to.equal(undefined)
   })
 
   it('exports flattenDeep', function () {
-    expect(flattenDeep).to.be.defined
+    expect(flattenDeep).not.to.equal(undefined)
   })
 
   it('exports flattenDepth', function () {
-    expect(flattenDepth).to.be.defined
+    expect(flattenDepth).not.to.equal(undefined)
   })
 
   it('exports flip', function () {
-    expect(flip).to.be.defined
+    expect(flip).not.to.equal(undefined)
   })
 
   it('exports floor', function () {
-    expect(floor).to.be.defined
+    expect(floor).not.to.equal(undefined)
   })
 
   it('exports flow', function () {
-    expect(flow).to.be.defined
+    expect(flow).not.to.equal(undefined)
   })
 
   it('exports flowRight', function () {
-    expect(flowRight).to.be.defined
+    expect(flowRight).not.to.equal(undefined)
   })
 
   it('exports forEach', function () {
-    expect(forEach).to.be.defined
+    expect(forEach).not.to.equal(undefined)
   })
 
   it('exports forEachRight', function () {
-    expect(forEachRight).to.be.defined
+    expect(forEachRight).not.to.equal(undefined)
   })
 
   it('exports forIn', function () {
-    expect(forIn).to.be.defined
+    expect(forIn).not.to.equal(undefined)
   })
 
   it('exports forInRight', function () {
-    expect(forInRight).to.be.defined
+    expect(forInRight).not.to.equal(undefined)
   })
 
   it('exports forOwn', function () {
-    expect(forOwn).to.be.defined
+    expect(forOwn).not.to.equal(undefined)
   })
 
   it('exports forOwnRight', function () {
-    expect(forOwnRight).to.be.defined
+    expect(forOwnRight).not.to.equal(undefined)
   })
 
   it('exports fromPairs', function () {
-    expect(fromPairs).to.be.defined
+    expect(fromPairs).not.to.equal(undefined)
   })
 
   it('exports functions', function () {
-    expect(functions).to.be.defined
+    expect(functions).not.to.equal(undefined)
   })
 
   it('exports functionsIn', function () {
-    expect(functionsIn).to.be.defined
+    expect(functionsIn).not.to.equal(undefined)
   })
 
   it('exports get', function () {
-    expect(get).to.be.defined
+    expect(get).not.to.equal(undefined)
   })
 
   it('exports groupBy', function () {
-    expect(groupBy).to.be.defined
+    expect(groupBy).not.to.equal(undefined)
   })
 
   it('exports gt', function () {
-    expect(gt).to.be.defined
+    expect(gt).not.to.equal(undefined)
   })
 
   it('exports gte', function () {
-    expect(gte).to.be.defined
+    expect(gte).not.to.equal(undefined)
   })
 
   it('exports has', function () {
-    expect(has).to.be.defined
+    expect(has).not.to.equal(undefined)
   })
 
   it('exports hasIn', function () {
-    expect(hasIn).to.be.defined
+    expect(hasIn).not.to.equal(undefined)
   })
 
   it('exports head', function () {
-    expect(head).to.be.defined
+    expect(head).not.to.equal(undefined)
   })
 
   it('exports identity', function () {
-    expect(identity).to.be.defined
+    expect(identity).not.to.equal(undefined)
   })
 
   it('exports inRange', function () {
-    expect(inRange).to.be.defined
+    expect(inRange).not.to.equal(undefined)
   })
 
   it('exports includes', function () {
-    expect(includes).to.be.defined
+    expect(includes).not.to.equal(undefined)
   })
 
   it('exports indexOf', function () {
-    expect(indexOf).to.be.defined
+    expect(indexOf).not.to.equal(undefined)
   })
 
   it('exports initial', function () {
-    expect(initial).to.be.defined
+    expect(initial).not.to.equal(undefined)
   })
 
   it('exports intersection', function () {
-    expect(intersection).to.be.defined
+    expect(intersection).not.to.equal(undefined)
   })
 
   it('exports intersectionBy', function () {
-    expect(intersectionBy).to.be.defined
+    expect(intersectionBy).not.to.equal(undefined)
   })
 
   it('exports intersectionWith', function () {
-    expect(intersectionWith).to.be.defined
+    expect(intersectionWith).not.to.equal(undefined)
   })
 
   it('exports invert', function () {
-    expect(invert).to.be.defined
+    expect(invert).not.to.equal(undefined)
   })
 
   it('exports invertBy', function () {
-    expect(invertBy).to.be.defined
+    expect(invertBy).not.to.equal(undefined)
   })
 
   it('exports invoke', function () {
-    expect(invoke).to.be.defined
+    expect(invoke).not.to.equal(undefined)
   })
 
   it('exports invokeMap', function () {
-    expect(invokeMap).to.be.defined
+    expect(invokeMap).not.to.equal(undefined)
   })
 
   it('exports isArguments', function () {
-    expect(isArguments).to.be.defined
+    expect(isArguments).not.to.equal(undefined)
   })
 
   it('exports isArray', function () {
-    expect(isArray).to.be.defined
+    expect(isArray).not.to.equal(undefined)
   })
 
   it('exports isArrayBuffer', function () {
-    expect(isArrayBuffer).to.be.defined
+    expect(isArrayBuffer).not.to.equal(undefined)
   })
 
   it('exports isArrayLike', function () {
-    expect(isArrayLike).to.be.defined
+    expect(isArrayLike).not.to.equal(undefined)
   })
 
   it('exports isArrayLikeObject', function () {
-    expect(isArrayLikeObject).to.be.defined
+    expect(isArrayLikeObject).not.to.equal(undefined)
   })
 
   it('exports isBoolean', function () {
-    expect(isBoolean).to.be.defined
+    expect(isBoolean).not.to.equal(undefined)
   })
 
   it('exports isBuffer', function () {
-    expect(isBuffer).to.be.defined
+    expect(isBuffer).not.to.equal(undefined)
   })
 
   it('exports isDate', function () {
-    expect(isDate).to.be.defined
+    expect(isDate).not.to.equal(undefined)
   })
 
   it('exports isElement', function () {
-    expect(isElement).to.be.defined
+    expect(isElement).not.to.equal(undefined)
   })
 
   it('exports isEmpty', function () {
-    expect(isEmpty).to.be.defined
+    expect(isEmpty).not.to.equal(undefined)
   })
 
   it('exports isEqual', function () {
-    expect(isEqual).to.be.defined
+    expect(isEqual).not.to.equal(undefined)
   })
 
   it('exports isEqualWith', function () {
-    expect(isEqualWith).to.be.defined
+    expect(isEqualWith).not.to.equal(undefined)
   })
 
   it('exports isError', function () {
-    expect(isError).to.be.defined
+    expect(isError).not.to.equal(undefined)
   })
 
   it('exports isFinite', function () {
-    expect(isFinite).to.be.defined
+    expect(isFinite).not.to.equal(undefined)
   })
 
   it('exports isFunction', function () {
-    expect(isFunction).to.be.defined
+    expect(isFunction).not.to.equal(undefined)
   })
 
   it('exports isInteger', function () {
-    expect(isInteger).to.be.defined
+    expect(isInteger).not.to.equal(undefined)
   })
 
   it('exports isLength', function () {
-    expect(isLength).to.be.defined
+    expect(isLength).not.to.equal(undefined)
   })
 
   it('exports isMap', function () {
-    expect(isMap).to.be.defined
+    expect(isMap).not.to.equal(undefined)
   })
 
   it('exports isMatch', function () {
-    expect(isMatch).to.be.defined
+    expect(isMatch).not.to.equal(undefined)
   })
 
   it('exports isMatchWith', function () {
-    expect(isMatchWith).to.be.defined
+    expect(isMatchWith).not.to.equal(undefined)
   })
 
   it('exports isNaN', function () {
-    expect(isNaN).to.be.defined
+    expect(isNaN).not.to.equal(undefined)
   })
 
   it('exports isNative', function () {
-    expect(isNative).to.be.defined
+    expect(isNative).not.to.equal(undefined)
   })
 
   it('exports isNil', function () {
-    expect(isNil).to.be.defined
+    expect(isNil).not.to.equal(undefined)
   })
 
   it('exports isNull', function () {
-    expect(isNull).to.be.defined
+    expect(isNull).not.to.equal(undefined)
   })
 
   it('exports isNumber', function () {
-    expect(isNumber).to.be.defined
+    expect(isNumber).not.to.equal(undefined)
   })
 
   it('exports isObject', function () {
-    expect(isObject).to.be.defined
+    expect(isObject).not.to.equal(undefined)
   })
 
   it('exports isObjectLike', function () {
-    expect(isObjectLike).to.be.defined
+    expect(isObjectLike).not.to.equal(undefined)
   })
 
   it('exports isPlainObject', function () {
-    expect(isPlainObject).to.be.defined
+    expect(isPlainObject).not.to.equal(undefined)
   })
 
   it('exports isRegExp', function () {
-    expect(isRegExp).to.be.defined
+    expect(isRegExp).not.to.equal(undefined)
   })
 
   it('exports isSafeInteger', function () {
-    expect(isSafeInteger).to.be.defined
+    expect(isSafeInteger).not.to.equal(undefined)
   })
 
   it('exports isSet', function () {
-    expect(isSet).to.be.defined
+    expect(isSet).not.to.equal(undefined)
   })
 
   it('exports isString', function () {
-    expect(isString).to.be.defined
+    expect(isString).not.to.equal(undefined)
   })
 
   it('exports isSymbol', function () {
-    expect(isSymbol).to.be.defined
+    expect(isSymbol).not.to.equal(undefined)
   })
 
   it('exports isTypedArray', function () {
-    expect(isTypedArray).to.be.defined
+    expect(isTypedArray).not.to.equal(undefined)
   })
 
   it('exports isUndefined', function () {
-    expect(isUndefined).to.be.defined
+    expect(isUndefined).not.to.equal(undefined)
   })
 
   it('exports isWeakMap', function () {
-    expect(isWeakMap).to.be.defined
+    expect(isWeakMap).not.to.equal(undefined)
   })
 
   it('exports isWeakSet', function () {
-    expect(isWeakSet).to.be.defined
+    expect(isWeakSet).not.to.equal(undefined)
   })
 
   it('exports iteratee', function () {
-    expect(iteratee).to.be.defined
+    expect(iteratee).not.to.equal(undefined)
   })
 
   it('exports join', function () {
-    expect(join).to.be.defined
+    expect(join).not.to.equal(undefined)
   })
 
   it('exports kebabCase', function () {
-    expect(kebabCase).to.be.defined
+    expect(kebabCase).not.to.equal(undefined)
   })
 
   it('exports keyBy', function () {
-    expect(keyBy).to.be.defined
+    expect(keyBy).not.to.equal(undefined)
   })
 
   it('exports keys', function () {
-    expect(keys).to.be.defined
+    expect(keys).not.to.equal(undefined)
   })
 
   it('exports keysIn', function () {
-    expect(keysIn).to.be.defined
+    expect(keysIn).not.to.equal(undefined)
   })
 
   it('exports last', function () {
-    expect(last).to.be.defined
+    expect(last).not.to.equal(undefined)
   })
 
   it('exports lastIndexOf', function () {
-    expect(lastIndexOf).to.be.defined
+    expect(lastIndexOf).not.to.equal(undefined)
   })
 
   it('exports lodash', function () {
-    expect(lodash).to.be.defined
+    expect(lodash).not.to.equal(undefined)
   })
 
   it('exports lowerCase', function () {
-    expect(lowerCase).to.be.defined
+    expect(lowerCase).not.to.equal(undefined)
   })
 
   it('exports lowerFirst', function () {
-    expect(lowerFirst).to.be.defined
+    expect(lowerFirst).not.to.equal(undefined)
   })
 
   it('exports lt', function () {
-    expect(lt).to.be.defined
+    expect(lt).not.to.equal(undefined)
   })
 
   it('exports lte', function () {
-    expect(lte).to.be.defined
+    expect(lte).not.to.equal(undefined)
   })
 
   it('exports map', function () {
-    expect(map).to.be.defined
+    expect(map).not.to.equal(undefined)
   })
 
   it('exports mapKeys', function () {
-    expect(mapKeys).to.be.defined
+    expect(mapKeys).not.to.equal(undefined)
   })
 
   it('exports mapValues', function () {
-    expect(mapValues).to.be.defined
+    expect(mapValues).not.to.equal(undefined)
   })
 
   it('exports matches', function () {
-    expect(matches).to.be.defined
+    expect(matches).not.to.equal(undefined)
   })
 
   it('exports matchesProperty', function () {
-    expect(matchesProperty).to.be.defined
+    expect(matchesProperty).not.to.equal(undefined)
   })
 
   it('exports max', function () {
-    expect(max).to.be.defined
+    expect(max).not.to.equal(undefined)
   })
 
   it('exports maxBy', function () {
-    expect(maxBy).to.be.defined
+    expect(maxBy).not.to.equal(undefined)
   })
 
   it('exports mean', function () {
-    expect(mean).to.be.defined
+    expect(mean).not.to.equal(undefined)
   })
 
   it('exports meanBy', function () {
-    expect(meanBy).to.be.defined
+    expect(meanBy).not.to.equal(undefined)
   })
 
   it('exports memoize', function () {
-    expect(memoize).to.be.defined
+    expect(memoize).not.to.equal(undefined)
   })
 
   it('exports merge', function () {
-    expect(merge).to.be.defined
+    expect(merge).not.to.equal(undefined)
   })
 
   it('exports mergeWith', function () {
-    expect(mergeWith).to.be.defined
+    expect(mergeWith).not.to.equal(undefined)
   })
 
   it('exports method', function () {
-    expect(method).to.be.defined
+    expect(method).not.to.equal(undefined)
   })
 
   it('exports methodOf', function () {
-    expect(methodOf).to.be.defined
+    expect(methodOf).not.to.equal(undefined)
   })
 
   it('exports min', function () {
-    expect(min).to.be.defined
+    expect(min).not.to.equal(undefined)
   })
 
   it('exports minBy', function () {
-    expect(minBy).to.be.defined
+    expect(minBy).not.to.equal(undefined)
   })
 
   it('exports mixin', function () {
-    expect(mixin).to.be.defined
+    expect(mixin).not.to.equal(undefined)
   })
 
   it('exports multiply', function () {
-    expect(multiply).to.be.defined
+    expect(multiply).not.to.equal(undefined)
   })
 
   it('exports negate', function () {
-    expect(negate).to.be.defined
+    expect(negate).not.to.equal(undefined)
   })
 
   it('exports next', function () {
-    expect(next).to.be.defined
+    expect(next).not.to.equal(undefined)
   })
 
   it('exports noop', function () {
-    expect(noop).to.be.defined
+    expect(noop).not.to.equal(undefined)
   })
 
   it('exports now', function () {
-    expect(now).to.be.defined
+    expect(now).not.to.equal(undefined)
   })
 
   it('exports nth', function () {
-    expect(nth).to.be.defined
+    expect(nth).not.to.equal(undefined)
   })
 
   it('exports nthArg', function () {
-    expect(nthArg).to.be.defined
+    expect(nthArg).not.to.equal(undefined)
   })
 
   it('exports omit', function () {
-    expect(omit).to.be.defined
+    expect(omit).not.to.equal(undefined)
   })
 
   it('exports omitBy', function () {
-    expect(omitBy).to.be.defined
+    expect(omitBy).not.to.equal(undefined)
   })
 
   it('exports once', function () {
-    expect(once).to.be.defined
+    expect(once).not.to.equal(undefined)
   })
 
   it('exports orderBy', function () {
-    expect(orderBy).to.be.defined
+    expect(orderBy).not.to.equal(undefined)
   })
 
   it('exports over', function () {
-    expect(over).to.be.defined
+    expect(over).not.to.equal(undefined)
   })
 
   it('exports overArgs', function () {
-    expect(overArgs).to.be.defined
+    expect(overArgs).not.to.equal(undefined)
   })
 
   it('exports overEvery', function () {
-    expect(overEvery).to.be.defined
+    expect(overEvery).not.to.equal(undefined)
   })
 
   it('exports overSome', function () {
-    expect(overSome).to.be.defined
+    expect(overSome).not.to.equal(undefined)
   })
 
   it('exports pad', function () {
-    expect(pad).to.be.defined
+    expect(pad).not.to.equal(undefined)
   })
 
   it('exports padEnd', function () {
-    expect(padEnd).to.be.defined
+    expect(padEnd).not.to.equal(undefined)
   })
 
   it('exports padStart', function () {
-    expect(padStart).to.be.defined
+    expect(padStart).not.to.equal(undefined)
   })
 
   it('exports parseInt', function () {
-    expect(parseInt).to.be.defined
+    expect(parseInt).not.to.equal(undefined)
   })
 
   it('exports partial', function () {
-    expect(partial).to.be.defined
+    expect(partial).not.to.equal(undefined)
   })
 
   it('exports partialRight', function () {
-    expect(partialRight).to.be.defined
+    expect(partialRight).not.to.equal(undefined)
   })
 
   it('exports partition', function () {
-    expect(partition).to.be.defined
+    expect(partition).not.to.equal(undefined)
   })
 
   it('exports pick', function () {
-    expect(pick).to.be.defined
+    expect(pick).not.to.equal(undefined)
   })
 
   it('exports pickBy', function () {
-    expect(pickBy).to.be.defined
+    expect(pickBy).not.to.equal(undefined)
   })
 
   it('exports plant', function () {
-    expect(plant).to.be.defined
+    expect(plant).not.to.equal(undefined)
   })
 
   it('exports property', function () {
-    expect(property).to.be.defined
+    expect(property).not.to.equal(undefined)
   })
 
   it('exports propertyOf', function () {
-    expect(propertyOf).to.be.defined
+    expect(propertyOf).not.to.equal(undefined)
   })
 
   it('exports pull', function () {
-    expect(pull).to.be.defined
+    expect(pull).not.to.equal(undefined)
   })
 
   it('exports pullAll', function () {
-    expect(pullAll).to.be.defined
+    expect(pullAll).not.to.equal(undefined)
   })
 
   it('exports pullAllBy', function () {
-    expect(pullAllBy).to.be.defined
+    expect(pullAllBy).not.to.equal(undefined)
   })
 
   it('exports pullAllWith', function () {
-    expect(pullAllWith).to.be.defined
+    expect(pullAllWith).not.to.equal(undefined)
   })
 
   it('exports pullAt', function () {
-    expect(pullAt).to.be.defined
+    expect(pullAt).not.to.equal(undefined)
   })
 
   it('exports random', function () {
-    expect(random).to.be.defined
+    expect(random).not.to.equal(undefined)
   })
 
   it('exports range', function () {
-    expect(range).to.be.defined
+    expect(range).not.to.equal(undefined)
   })
 
   it('exports rangeRight', function () {
-    expect(rangeRight).to.be.defined
+    expect(rangeRight).not.to.equal(undefined)
   })
 
   it('exports rearg', function () {
-    expect(rearg).to.be.defined
+    expect(rearg).not.to.equal(undefined)
   })
 
   it('exports reduce', function () {
-    expect(reduce).to.be.defined
+    expect(reduce).not.to.equal(undefined)
   })
 
   it('exports reduceRight', function () {
-    expect(reduceRight).to.be.defined
+    expect(reduceRight).not.to.equal(undefined)
   })
 
   it('exports reject', function () {
-    expect(reject).to.be.defined
+    expect(reject).not.to.equal(undefined)
   })
 
   it('exports remove', function () {
-    expect(remove).to.be.defined
+    expect(remove).not.to.equal(undefined)
   })
 
   it('exports repeat', function () {
-    expect(repeat).to.be.defined
+    expect(repeat).not.to.equal(undefined)
   })
 
   it('exports replace', function () {
-    expect(replace).to.be.defined
+    expect(replace).not.to.equal(undefined)
   })
 
   it('exports rest', function () {
-    expect(rest).to.be.defined
+    expect(rest).not.to.equal(undefined)
   })
 
   it('exports result', function () {
-    expect(result).to.be.defined
+    expect(result).not.to.equal(undefined)
   })
 
   it('exports reverse', function () {
-    expect(reverse).to.be.defined
+    expect(reverse).not.to.equal(undefined)
   })
 
   it('exports round', function () {
-    expect(round).to.be.defined
+    expect(round).not.to.equal(undefined)
   })
 
   it('exports sample', function () {
-    expect(sample).to.be.defined
+    expect(sample).not.to.equal(undefined)
   })
 
   it('exports sampleSize', function () {
-    expect(sampleSize).to.be.defined
+    expect(sampleSize).not.to.equal(undefined)
   })
 
   it('exports set', function () {
-    expect(set).to.be.defined
+    expect(set).not.to.equal(undefined)
   })
 
   it('exports setWith', function () {
-    expect(setWith).to.be.defined
+    expect(setWith).not.to.equal(undefined)
   })
 
   it('exports shuffle', function () {
-    expect(shuffle).to.be.defined
+    expect(shuffle).not.to.equal(undefined)
   })
 
   it('exports size', function () {
-    expect(size).to.be.defined
+    expect(size).not.to.equal(undefined)
   })
 
   it('exports slice', function () {
-    expect(slice).to.be.defined
+    expect(slice).not.to.equal(undefined)
   })
 
   it('exports snakeCase', function () {
-    expect(snakeCase).to.be.defined
+    expect(snakeCase).not.to.equal(undefined)
   })
 
   it('exports some', function () {
-    expect(some).to.be.defined
+    expect(some).not.to.equal(undefined)
   })
 
   it('exports sortBy', function () {
-    expect(sortBy).to.be.defined
+    expect(sortBy).not.to.equal(undefined)
   })
 
   it('exports sortedIndex', function () {
-    expect(sortedIndex).to.be.defined
+    expect(sortedIndex).not.to.equal(undefined)
   })
 
   it('exports sortedIndexBy', function () {
-    expect(sortedIndexBy).to.be.defined
+    expect(sortedIndexBy).not.to.equal(undefined)
   })
 
   it('exports sortedIndexOf', function () {
-    expect(sortedIndexOf).to.be.defined
+    expect(sortedIndexOf).not.to.equal(undefined)
   })
 
   it('exports sortedLastIndex', function () {
-    expect(sortedLastIndex).to.be.defined
+    expect(sortedLastIndex).not.to.equal(undefined)
   })
 
   it('exports sortedLastIndexBy', function () {
-    expect(sortedLastIndexBy).to.be.defined
+    expect(sortedLastIndexBy).not.to.equal(undefined)
   })
 
   it('exports sortedLastIndexOf', function () {
-    expect(sortedLastIndexOf).to.be.defined
+    expect(sortedLastIndexOf).not.to.equal(undefined)
   })
 
   it('exports sortedUniq', function () {
-    expect(sortedUniq).to.be.defined
+    expect(sortedUniq).not.to.equal(undefined)
   })
 
   it('exports sortedUniqBy', function () {
-    expect(sortedUniqBy).to.be.defined
+    expect(sortedUniqBy).not.to.equal(undefined)
   })
 
   it('exports split', function () {
-    expect(split).to.be.defined
+    expect(split).not.to.equal(undefined)
   })
 
   it('exports spread', function () {
-    expect(spread).to.be.defined
+    expect(spread).not.to.equal(undefined)
   })
 
   it('exports startCase', function () {
-    expect(startCase).to.be.defined
+    expect(startCase).not.to.equal(undefined)
   })
 
   it('exports startsWith', function () {
-    expect(startsWith).to.be.defined
+    expect(startsWith).not.to.equal(undefined)
   })
 
   it('exports stubArray', function () {
-    expect(stubArray).to.be.defined
+    expect(stubArray).not.to.equal(undefined)
   })
 
   it('exports stubFalse', function () {
-    expect(stubFalse).to.be.defined
+    expect(stubFalse).not.to.equal(undefined)
   })
 
   it('exports stubObject', function () {
-    expect(stubObject).to.be.defined
+    expect(stubObject).not.to.equal(undefined)
   })
 
   it('exports stubString', function () {
-    expect(stubString).to.be.defined
+    expect(stubString).not.to.equal(undefined)
   })
 
   it('exports stubTrue', function () {
-    expect(stubTrue).to.be.defined
+    expect(stubTrue).not.to.equal(undefined)
   })
 
   it('exports subtract', function () {
-    expect(subtract).to.be.defined
+    expect(subtract).not.to.equal(undefined)
   })
 
   it('exports sum', function () {
-    expect(sum).to.be.defined
+    expect(sum).not.to.equal(undefined)
   })
 
   it('exports sumBy', function () {
-    expect(sumBy).to.be.defined
+    expect(sumBy).not.to.equal(undefined)
   })
 
   it('exports tail', function () {
-    expect(tail).to.be.defined
+    expect(tail).not.to.equal(undefined)
   })
 
   it('exports take', function () {
-    expect(take).to.be.defined
+    expect(take).not.to.equal(undefined)
   })
 
   it('exports takeRight', function () {
-    expect(takeRight).to.be.defined
+    expect(takeRight).not.to.equal(undefined)
   })
 
   it('exports takeRightWhile', function () {
-    expect(takeRightWhile).to.be.defined
+    expect(takeRightWhile).not.to.equal(undefined)
   })
 
   it('exports takeWhile', function () {
-    expect(takeWhile).to.be.defined
+    expect(takeWhile).not.to.equal(undefined)
   })
 
   it('exports tap', function () {
-    expect(tap).to.be.defined
+    expect(tap).not.to.equal(undefined)
   })
 
   it('exports template', function () {
-    expect(template).to.be.defined
+    expect(template).not.to.equal(undefined)
   })
 
   it('exports templateSettings', function () {
-    expect(templateSettings).to.be.defined
+    expect(templateSettings).not.to.equal(undefined)
   })
 
   it('exports throttle', function () {
-    expect(throttle).to.be.defined
+    expect(throttle).not.to.equal(undefined)
   })
 
   it('exports thru', function () {
-    expect(thru).to.be.defined
+    expect(thru).not.to.equal(undefined)
   })
 
   it('exports times', function () {
-    expect(times).to.be.defined
+    expect(times).not.to.equal(undefined)
   })
 
   it('exports toArray', function () {
-    expect(toArray).to.be.defined
+    expect(toArray).not.to.equal(undefined)
   })
 
   it('exports toFinite', function () {
-    expect(toFinite).to.be.defined
+    expect(toFinite).not.to.equal(undefined)
   })
 
   it('exports toInteger', function () {
-    expect(toInteger).to.be.defined
+    expect(toInteger).not.to.equal(undefined)
   })
 
   it('exports toIterator', function () {
-    expect(toIterator).to.be.defined
+    expect(toIterator).not.to.equal(undefined)
   })
 
   it('exports toJSON', function () {
-    expect(toJSON).to.be.defined
+    expect(toJSON).not.to.equal(undefined)
   })
 
   it('exports toLength', function () {
-    expect(toLength).to.be.defined
+    expect(toLength).not.to.equal(undefined)
   })
 
   it('exports toLower', function () {
-    expect(toLower).to.be.defined
+    expect(toLower).not.to.equal(undefined)
   })
 
   it('exports toNumber', function () {
-    expect(toNumber).to.be.defined
+    expect(toNumber).not.to.equal(undefined)
   })
 
   it('exports toPairs', function () {
-    expect(toPairs).to.be.defined
+    expect(toPairs).not.to.equal(undefined)
   })
 
   it('exports toPairsIn', function () {
-    expect(toPairsIn).to.be.defined
+    expect(toPairsIn).not.to.equal(undefined)
   })
 
   it('exports toPath', function () {
-    expect(toPath).to.be.defined
+    expect(toPath).not.to.equal(undefined)
   })
 
   it('exports toPlainObject', function () {
-    expect(toPlainObject).to.be.defined
+    expect(toPlainObject).not.to.equal(undefined)
   })
 
   it('exports toSafeInteger', function () {
-    expect(toSafeInteger).to.be.defined
+    expect(toSafeInteger).not.to.equal(undefined)
   })
 
   it('exports toString', function () {
-    expect(toString).to.be.defined
+    expect(toString).not.to.equal(undefined)
   })
 
   it('exports toUpper', function () {
-    expect(toUpper).to.be.defined
+    expect(toUpper).not.to.equal(undefined)
   })
 
   it('exports transform', function () {
-    expect(transform).to.be.defined
+    expect(transform).not.to.equal(undefined)
   })
 
   it('exports trim', function () {
-    expect(trim).to.be.defined
+    expect(trim).not.to.equal(undefined)
   })
 
   it('exports trimEnd', function () {
-    expect(trimEnd).to.be.defined
+    expect(trimEnd).not.to.equal(undefined)
   })
 
   it('exports trimStart', function () {
-    expect(trimStart).to.be.defined
+    expect(trimStart).not.to.equal(undefined)
   })
 
   it('exports truncate', function () {
-    expect(truncate).to.be.defined
+    expect(truncate).not.to.equal(undefined)
   })
 
   it('exports unary', function () {
-    expect(unary).to.be.defined
+    expect(unary).not.to.equal(undefined)
   })
 
   it('exports unescape', function () {
-    expect(unescape).to.be.defined
+    expect(unescape).not.to.equal(undefined)
   })
 
   it('exports union', function () {
-    expect(union).to.be.defined
+    expect(union).not.to.equal(undefined)
   })
 
   it('exports unionBy', function () {
-    expect(unionBy).to.be.defined
+    expect(unionBy).not.to.equal(undefined)
   })
 
   it('exports unionWith', function () {
-    expect(unionWith).to.be.defined
+    expect(unionWith).not.to.equal(undefined)
   })
 
   it('exports uniq', function () {
-    expect(uniq).to.be.defined
+    expect(uniq).not.to.equal(undefined)
   })
 
   it('exports uniqBy', function () {
-    expect(uniqBy).to.be.defined
+    expect(uniqBy).not.to.equal(undefined)
   })
 
   it('exports uniqWith', function () {
-    expect(uniqWith).to.be.defined
+    expect(uniqWith).not.to.equal(undefined)
   })
 
   it('exports uniqueId', function () {
-    expect(uniqueId).to.be.defined
+    expect(uniqueId).not.to.equal(undefined)
   })
 
   it('exports unset', function () {
-    expect(unset).to.be.defined
+    expect(unset).not.to.equal(undefined)
   })
 
   it('exports unzip', function () {
-    expect(unzip).to.be.defined
+    expect(unzip).not.to.equal(undefined)
   })
 
   it('exports unzipWith', function () {
-    expect(unzipWith).to.be.defined
+    expect(unzipWith).not.to.equal(undefined)
   })
 
   it('exports update', function () {
-    expect(update).to.be.defined
+    expect(update).not.to.equal(undefined)
   })
 
   it('exports updateWith', function () {
-    expect(updateWith).to.be.defined
+    expect(updateWith).not.to.equal(undefined)
   })
 
   it('exports upperCase', function () {
-    expect(upperCase).to.be.defined
+    expect(upperCase).not.to.equal(undefined)
   })
 
   it('exports upperFirst', function () {
-    expect(upperFirst).to.be.defined
+    expect(upperFirst).not.to.equal(undefined)
   })
 
   it('exports value', function () {
-    expect(value).to.be.defined
+    expect(value).not.to.equal(undefined)
   })
 
   it('exports valueOf', function () {
-    expect(valueOf).to.be.defined
+    expect(valueOf).not.to.equal(undefined)
   })
 
   it('exports values', function () {
-    expect(values).to.be.defined
+    expect(values).not.to.equal(undefined)
   })
 
   it('exports valuesIn', function () {
-    expect(valuesIn).to.be.defined
+    expect(valuesIn).not.to.equal(undefined)
   })
 
   it('exports without', function () {
-    expect(without).to.be.defined
+    expect(without).not.to.equal(undefined)
   })
 
   it('exports words', function () {
-    expect(words).to.be.defined
+    expect(words).not.to.equal(undefined)
   })
 
   it('exports wrap', function () {
-    expect(wrap).to.be.defined
+    expect(wrap).not.to.equal(undefined)
   })
 
   it('exports wrapperAt', function () {
-    expect(wrapperAt).to.be.defined
+    expect(wrapperAt).not.to.equal(undefined)
   })
 
   it('exports wrapperChain', function () {
-    expect(wrapperChain).to.be.defined
+    expect(wrapperChain).not.to.equal(undefined)
   })
 
   it('exports wrapperCommit', function () {
-    expect(wrapperCommit).to.be.defined
+    expect(wrapperCommit).not.to.equal(undefined)
   })
 
   it('exports wrapperLodash', function () {
-    expect(wrapperLodash).to.be.defined
+    expect(wrapperLodash).not.to.equal(undefined)
   })
 
   it('exports wrapperNext', function () {
-    expect(wrapperNext).to.be.defined
+    expect(wrapperNext).not.to.equal(undefined)
   })
 
   it('exports wrapperPlant', function () {
-    expect(wrapperPlant).to.be.defined
+    expect(wrapperPlant).not.to.equal(undefined)
   })
 
   it('exports wrapperReverse', function () {
-    expect(wrapperReverse).to.be.defined
+    expect(wrapperReverse).not.to.equal(undefined)
   })
 
   it('exports wrapperToIterator', function () {
-    expect(wrapperToIterator).to.be.defined
+    expect(wrapperToIterator).not.to.equal(undefined)
   })
 
   it('exports wrapperValue', function () {
-    expect(wrapperValue).to.be.defined
+    expect(wrapperValue).not.to.equal(undefined)
   })
 
   it('exports xor', function () {
-    expect(xor).to.be.defined
+    expect(xor).not.to.equal(undefined)
   })
 
   it('exports xorBy', function () {
-    expect(xorBy).to.be.defined
+    expect(xorBy).not.to.equal(undefined)
   })
 
   it('exports xorWith', function () {
-    expect(xorWith).to.be.defined
+    expect(xorWith).not.to.equal(undefined)
   })
 
   it('exports zip', function () {
-    expect(zip).to.be.defined
+    expect(zip).not.to.equal(undefined)
   })
 
   it('exports zipObject', function () {
-    expect(zipObject).to.be.defined
+    expect(zipObject).not.to.equal(undefined)
   })
 
   it('exports zipObjectDeep', function () {
-    expect(zipObjectDeep).to.be.defined
+    expect(zipObjectDeep).not.to.equal(undefined)
   })
 
   it('exports zipWith', function () {
-    expect(zipWith).to.be.defined
+    expect(zipWith).not.to.equal(undefined)
   })
 })
