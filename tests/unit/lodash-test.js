@@ -325,7 +325,7 @@ import _, {
   zipWith
 } from 'lodash'
 
-describe('index', function () {
+describe('lodash', function () {
   it('is a single module that has been exported', function () {
     expect(typeof _).to.equal('function')
   })

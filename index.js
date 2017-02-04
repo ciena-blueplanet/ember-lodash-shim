@@ -83,7 +83,6 @@ function getOptimizedLodash4Include (config) {
     .map((include) => `${include}.js`)
     .concat([
       '_*.js',
-      'lodash.js',
       'lodash.default.js'
     ])
 }
@@ -94,11 +93,13 @@ module.exports = {
   treeForAddon (tree) {
     const config = getMergedConfig.call(this)
     const includes = config.whitelist ? config.includes : methods
+    const indexContents = getIndexContents(includes)
 
     let lodashTree = mergeTrees(
       [
         getLodash4Tree.call(this, config),
-        writeFile('index.js', getIndexContents(includes))
+        writeFile('index.js', indexContents),
+        writeFile('lodash.js', indexContents)
       ],
       {
         overwrite: true
