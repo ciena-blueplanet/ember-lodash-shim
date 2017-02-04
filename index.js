@@ -1,9 +1,29 @@
 'use strict'
 
+const writeFile = require('broccoli-file-creator')
 const Funnel = require('broccoli-funnel')
 const mergeTrees = require('broccoli-merge-trees')
 const path = require('path')
 const replace = require('broccoli-replace')
+const methods = require('./methods')
+
+const fromMapping = {
+  toString: 'toString',
+  valueOf: 'valueOf',
+  wrapperCommit: 'commit',
+  wrapperNext: 'next',
+  wrapperPlant: 'plant',
+  wrapperToIterator: 'toIterator'
+}
+
+function getIndexContents (include) {
+  return include
+    .map((method) => {
+      const importFrom = fromMapping[method] || method
+      return `export {default as ${method}} from './${importFrom}'\n`
+    })
+    .join('') + "export {default} from './lodash.default'\n"
+}
 
 function getLodash3Tree () {
   const lodashPath = path.dirname(require.resolve('./lodash-3-exports/index.js'))
@@ -63,7 +83,8 @@ function getOptimizedLodash4Include (config) {
     .map((include) => `${include}.js`)
     .concat([
       '_*.js',
-      'lodash.js'
+      'lodash.js',
+      'lodash.default.js'
     ])
 }
 
@@ -72,7 +93,17 @@ module.exports = {
 
   treeForAddon (tree) {
     const config = getMergedConfig.call(this)
-    let lodashTree = getLodash4Tree.call(this, config)
+    const includes = config.whitelist ? config.includes : methods
+
+    let lodashTree = mergeTrees(
+      [
+        getLodash4Tree.call(this, config),
+        writeFile('index.js', getIndexContents(includes))
+      ],
+      {
+        overwrite: true
+      }
+    )
 
     if (config.includeLodash3Exports) {
       lodashTree = mergeTrees(
