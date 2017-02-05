@@ -18,10 +18,10 @@ const fromMapping = {
   wrapperToIterator: 'toIterator'
 }
 
-const importRegex = /import\s+.*\s+from\s+('|")([^'"]+)('|")/g
+const importRegex = /(import|export)\s+.*\s+from\s+('|")([^'"]+)('|")/g
 
 function addDependencies (fileName, processed) {
-  if (processed[fileName]) {
+  if (processed.indexOf(fileName) !== -1) {
     return
   }
 
