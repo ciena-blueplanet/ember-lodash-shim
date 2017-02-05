@@ -42,7 +42,7 @@ function addDependencies (fileName, processed) {
 function getIndexContents (include) {
   return include
     .map((method) => {
-      const importFrom = fromMapping.indexOf(method) !== -1 ? fromMapping[method] : method
+      const importFrom = fromMapping.hasOwnProperty(method) ? fromMapping[method] : method
       return `export {default as ${method}} from './${importFrom}'\n`
     })
     .join('') + "export {default} from './lodash.default'\n"
