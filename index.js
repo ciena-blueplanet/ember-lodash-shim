@@ -3,8 +3,10 @@
 const writeFile = require('broccoli-file-creator')
 const Funnel = require('broccoli-funnel')
 const mergeTrees = require('broccoli-merge-trees')
-const path = require('path')
 const replace = require('broccoli-replace')
+const fs = require('fs')
+const path = require('path')
+
 const methods = require('./methods')
 
 const fromMapping = {
@@ -14,6 +16,29 @@ const fromMapping = {
   wrapperNext: 'next',
   wrapperPlant: 'plant',
   wrapperToIterator: 'toIterator'
+}
+
+const importRegex = /import\s+.*\s+from\s+('|")([^'"]+)('|")/g
+
+function addDependencies (fileName, processed) {
+  if (processed[fileName]) {
+    return
+  }
+
+  processed.push(fileName)
+
+  const contents = fs.readFileSync(`node_modules/lodash-es/${fileName}.js`)
+  const matches = contents.toString().match(importRegex)
+
+  if (!matches) {
+    return
+  }
+
+  matches
+    .map((match) => match.replace(/^.*('|").\/(.*)\.js('|")$/, '$2'))
+    .forEach((dependencyFileName) => {
+      addDependencies(dependencyFileName, processed)
+    })
 }
 
 function getIndexContents (include) {
@@ -79,12 +104,17 @@ function getMergedConfig () {
 }
 
 function getOptimizedLodash4Include (config) {
-  return config.includes
+  const processed = []
+
+  config.includes
+    .filter((include, index, includes) => includes.indexOf(include) === index)
+    .concat('lodash.default')
+    .map((fileName) => {
+      addDependencies(fileName, processed)
+    })
+
+  return processed
     .map((include) => `${include}.js`)
-    .concat([
-      '_*.js',
-      'lodash.default.js'
-    ])
 }
 
 module.exports = {
