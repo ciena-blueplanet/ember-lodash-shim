@@ -10,8 +10,6 @@ const path = require('path')
 const methods = require('./methods')
 
 const fromMapping = {
-  toString: 'toString',
-  valueOf: 'valueOf',
   wrapperCommit: 'commit',
   wrapperNext: 'next',
   wrapperPlant: 'plant',
@@ -44,7 +42,7 @@ function addDependencies (fileName, processed) {
 function getIndexContents (include) {
   return include
     .map((method) => {
-      const importFrom = fromMapping[method] || method
+      const importFrom = fromMapping.indexOf(method) !== -1 ? fromMapping[method] : method
       return `export {default as ${method}} from './${importFrom}'\n`
     })
     .join('') + "export {default} from './lodash.default'\n"
@@ -90,7 +88,11 @@ function getMergedConfig () {
       }
 
       if (Array.isArray(addonConfig.includes)) {
-        mergedConfig.includes = mergedConfig.includes.concat(addonConfig.includes)
+        addonConfig.includes.forEach((include) => {
+          if (mergedConfig.includes.indexOf(include) === -1) {
+            mergedConfig.includes.push(include)
+          }
+        })
       }
 
       return mergedConfig
