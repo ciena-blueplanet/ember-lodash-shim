@@ -1,3 +1,29 @@
+# 2.0.0
+
+* **Replaced** `lodash-es` with pre-built lodash. This gets rid of the ES6 modules in favor of lodash's official pre-built UMD files, which are pulled in via this addons vendor directory. This makes for much smaller builds at the cost of removing named imports. When testing `ember-redux-shim` with this change ~150 KB was removed off of the production built. Now `_` is available in the global scope and the following two imports still work:
+
+  ```js
+  import _ from 'lodash'
+  ```
+
+   ```js
+   import _ from 'lodash/lodash'
+   ```
+
+  You can no longer perform named imports such as:
+
+   ```js
+   import {cloneDeep} from 'lodash'
+   ```
+
+   You can also no longer import methods as modules such as:
+
+   ```js
+   import cloneDeep from 'lodash/cloneDeep'
+   ```
+
+  > A future enhancement that could bring back the additional configuration for yet even smaller builds is to use [lodash-cli](https://lodash.com/custom-builds), however including all of lodash via vendor is still much smaller than including a subset via `lodash-es`.
+
 # 1.2.0
 
 * **Added** support for making optimized builds.
