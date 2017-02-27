@@ -48,7 +48,6 @@
     "eslint": "^3.13.1",
     "eslint-config-frost-standard": "^6.0.0",
     "loader.js": "^4.1.0",
-    "lodash-es": "^4.17.4",
     "remark-cli": "^3.0.0",
     "remark-lint": "^6.0.0"
   },
@@ -60,10 +59,6 @@
     "utility"
   ],
   "dependencies": {
-    "broccoli-file-creator": "^1.1.1",
-    "broccoli-funnel": "^1.0.4",
-    "broccoli-merge-trees": "^1.1.4",
-    "broccoli-replace": "^0.12.0",
     "ember-cli-babel": "^5.1.9",
     "ember-cli-htmlbars": "^1.1.0"
   },
@@ -72,8 +67,5 @@
       "ember-lodash"
     ],
     "configPath": "tests/dummy/config"
-  },
-  "ember-lodash-shim": {
-    "whitelist": false
   }
 }
