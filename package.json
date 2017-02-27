@@ -1,6 +1,6 @@
 {
   "name": "ember-lodash-shim",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Lodash for Ember apps",
   "directories": {
     "doc": "doc",

@@ -1,3 +1,7 @@
+# 1.2.0
+
+* **Added** support for making optimized builds.
+
 # 1.1.1
 
 * **Upgraded** to test against Ember 2.11.
