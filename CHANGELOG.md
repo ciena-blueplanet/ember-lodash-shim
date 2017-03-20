@@ -1,3 +1,8 @@
+# 2.0.1 (2017-03-20)
+
+* **Removed** the blueprint, as it shouldn't be needed now, since we are using lodash from vendor now.
+
+
 # 2.0.0
 
 * **Replaced** `lodash-es` with pre-built lodash. This gets rid of the ES6 modules in favor of lodash's official pre-built UMD files, which are pulled in via this addons vendor directory. This makes for much smaller builds at the cost of removing named imports. When testing `ember-redux-shim` with this change ~150 KB was removed off of the production built. Now `_` is available in the global scope and the following two imports still work:
