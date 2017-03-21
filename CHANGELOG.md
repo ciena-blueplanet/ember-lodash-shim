@@ -1,3 +1,8 @@
+# 2.0.2 (2017-03-21)
+
+Add shouldCompileJS workaround
+
+
 # 2.0.1 (2017-03-20)
 
 * **Removed** the blueprint, as it shouldn't be needed now, since we are using lodash from vendor now.
