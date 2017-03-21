@@ -2,7 +2,7 @@
 
 module.exports = {
   name: 'lodash',
-  
+
   /**
    * Workaround needed for 2.12+
    * see: https://github.com/ember-redux/ember-redux/issues/105#issuecomment-288001558
