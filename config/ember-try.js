@@ -2,7 +2,7 @@ module.exports = {
   scenarios: [
     {
       name: 'default',
-      bower: {
+      npm: {
         dependencies: { }
       }
     },
@@ -158,6 +158,11 @@ module.exports = {
         resolutions: {
           'ember': 'release'
         }
+      },
+      npm: {
+        devDependencies: {
+          'ember-source': null
+        }
       }
     },
     {
@@ -169,6 +174,11 @@ module.exports = {
         resolutions: {
           'ember': 'beta'
         }
+      },
+      npm: {
+        devDependencies: {
+          'ember-source': null
+        }
       }
     },
     {
@@ -179,6 +189,11 @@ module.exports = {
         },
         resolutions: {
           'ember': 'canary'
+        }
+      },
+      npm: {
+        devDependencies: {
+          'ember-source': null
         }
       }
     }
