@@ -1,3 +1,7 @@
+# 2.0.4 (2017-05-14)
+
+Removed shouldCompileJS workaround
+
 # 2.0.3 (2017-05-11)
 
 * **Updated** the secure auth tokens in `.travis.yml`
