@@ -1,5 +1,4 @@
 {
   "name": "ember-lodash-shim",
-  "dependencies": {
-  }
+  "dependencies": {}
 }
