@@ -1,3 +1,11 @@
+# 2.0.5 (2017-06-30)
+* **Updated** to Ember CLI 2.12.3 and Ember 2.12.x
+* **Updated** ember-try config matrix with Ember LTS 2.4 and LTS 2.8
+* **Updated** travis.yml build matrix to run Ember LTS 2.4, LTS 2.8 and default (Ember LTS 2.12)
+* **Updated** linting to use `ember-test-utils` lint-all-the-things
+* **Updated** pr-bumper to allow the option of `#NONE#`
+* **Updated** Pull request template with new `#NONE#` option
+
 # 2.0.4 (2017-05-14)
 
 Removed shouldCompileJS workaround
