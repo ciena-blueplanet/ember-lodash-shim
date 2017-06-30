@@ -8,7 +8,13 @@ then
   exit 0
 fi
 
-if [ "$EMBER_TRY_SCENARIO" != "default" ]
+if [ "$TRAVIS_NODE_VERSION" != "6.9.1" ]
+then
+  echo "Skipping coverage publish for TRAVIS_NODE_VERSION ${TRAVIS_NODE_VERSION}"
+  exit 0
+fi
+
+if [ "$EMBER_TRY_SCENARIO" != "ember-default" ]
 then
   echo "Skipping coverage publish for EMBER_TRY_SCENARIO ${EMBER_TRY_SCENARIO}"
   exit 0
