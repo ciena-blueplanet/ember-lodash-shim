@@ -3,8 +3,8 @@
 
 module.exports = {
   name: 'lodash',
-  included (parent) {
-    this._super.included(parent)
+  included () {
+    this._super.included.apply(this, arguments)
 
     this.import({
       development: 'vendor/lodash/lodash.js',
