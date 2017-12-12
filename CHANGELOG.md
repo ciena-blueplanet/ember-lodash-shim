@@ -1,3 +1,6 @@
+# 2.0.6 (2017-12-12)
+* **Updated** super call inside of `included` hook of `index.js` to bind the context to `this`
+
 # 2.0.5 (2017-06-30)
 * **Updated** to Ember CLI 2.12.3 and Ember 2.12.x
 * **Updated** ember-try config matrix with Ember LTS 2.4 and LTS 2.8
