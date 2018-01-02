@@ -3,7 +3,7 @@ import {describe, it} from 'mocha'
 import _ from 'lodash/lodash'
 
 describe('lodash', function () {
-  it('is a single module that has been exported', function () {
+  it('should be a single module that has been exported', function () {
     expect(typeof _).to.equal('function')
   })
 
