@@ -1,3 +1,8 @@
+# 2.0.7 (2018-01-02)
+* Closes #56 
+  * Pin `ember-cli-htmlbars-inline-precompile` to `0.3.12`
+  * Install `ember-frost-test@^4.0.0`
+
 # 2.0.6 (2017-12-12)
 * **Updated** super call inside of `included` hook of `index.js` to bind the context to `this`
 
