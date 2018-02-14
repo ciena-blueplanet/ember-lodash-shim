@@ -1,3 +1,6 @@
+# 3.0.0 (2018-02-14)
+* **Updated** `ember-cli-htmlbars` to be a devDependency
+
 # 2.0.7 (2018-01-02)
 * Closes #56 
   * Pin `ember-cli-htmlbars-inline-precompile` to `0.3.12`
