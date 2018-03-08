@@ -81,7 +81,7 @@ We realize there is a lot of data requested here. We ask only that you do your b
 ## Detailed design
 This is the bulk of the Feature Request / Code Change.
 
-Explain the design in enough detail for somebody familiar with this repository to understand, and for somebody familiar with the implementation to implement. This should get into specifics and corner-cases, and include examples of how the feature is used. Any new terminology should be defined here.
+Explain the design in enough detail for somebody familiar with this addon, the UI Platform ecosystem, and Ember.js to understand, and for somebody familiar with the implementation to implement. This should get into specifics and corner-cases, and include examples of how the feature is used. Any new terminology should be defined here.
 
 ## How we teach this
 
