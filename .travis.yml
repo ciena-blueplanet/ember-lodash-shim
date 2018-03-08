@@ -2,7 +2,7 @@ sudo: required
 dist: trusty
 language: node_js
 node_js:
-  - '6.9.1'
+  - '8.1.2'
   - 'stable'
 addons:
   apt:
@@ -38,7 +38,7 @@ matrix:
 
 before_install:
   - npm config set spin false
-  - npm install -g coveralls pr-bumper@^1.0.0
+  - npm install -g coveralls pr-bumper@^3.7.0 ciena-devops@^1.0.0
   - $(npm root -g)/pr-bumper/.travis/maybe-check-scope.sh
 install:
   - $(npm root -g)/pr-bumper/.travis/maybe-install.sh
@@ -51,6 +51,9 @@ script:
   - .travis/maybe-bump-version.sh
 after_success:
   - .travis/maybe-publish-coverage.sh
+after_deploy:
+  - $(npm root -g)/ciena-devops/scripts/slack/incoming-webhooks/send-message.sh
+
 deploy:
   provider: npm
   email: npm.ciena@gmail.com
@@ -60,7 +63,7 @@ deploy:
   on:
     all_branches: true
     condition: "$EMBER_TRY_SCENARIO = 'ember-default'"
-    node: '6.9.1'
+    node: '8.1.2'
     tags: true
 notifications:
   slack:
