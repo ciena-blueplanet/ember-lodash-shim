@@ -19,6 +19,7 @@ Please provide screenshots or recordings if this PR is modifying the visual UI o
 ## Checklist
 * [ ] I have added tests that prove my fix is effective or that my feature works
 * [ ] I have evaluated if the _README.md_ documentation needs to be updated
+* [ ] I have evaluated if the _/tests/dummy/_ app needs to be modified
 * [ ] I have evaluated if DocBlock headers needed to be added or updated
 * [ ] I have verified that lint and tests pass locally with my changes
 * [ ] If a fork of a dependent package had to be made to address the issue this PR closes:
@@ -46,14 +47,22 @@ Examples:
   * backwards-compatible bug fix
     * nothing about how to use the code has changed
     * nothing about the outcome of the code has changed (though it likely corrected it)
+  * changes to demo app (_/tests/dummy/_)
 * **MINOR**
   * adding functionality in a backwards-compatible manner
     * nothing about how used to use the code has changed but using it in a new way will do new things
     * nothing about the outcome of the code has changed without having to first use it in a new way
+    * addition of new CSS selectors
+    * addition of new `ember-hook` selectors
 * **MAJOR**
   * incompatible API change
     * using the code how used to will cease working
     * using the code how used to will have a different outcome
+    * any changes to CSS selector names
+    * any removal of CSS selectors
+    * any changes to `ember-hook` selectors
+    * possibly changes to test helpers (depends on the changes made)
+  * any changes to the **_dependencies_** entry in the _package.json_ file
 
 # CHANGELOG
 
