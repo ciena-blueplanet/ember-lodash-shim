@@ -1,3 +1,13 @@
+# 3.0.1 (2018-03-08)
+* **Updated** pull request template
+* **Added** issue template
+* **Updated** to `pr-bumper` version `3`
+* **Updated** to node 8
+* **Added** slack integration
+* **Updated** `ember-frost-test` to `^4.0.1`
+* **Updated** `ember-test-utils` to `^8.1.1`
+* **Added** `package-lock.json` file
+
 # 3.0.0 (2018-02-14)
 * **Updated** `ember-cli-htmlbars` to be a devDependency
 
