@@ -1,16 +1,24 @@
-/* eslint-env node */
-const Reporter = require('ember-test-utils/reporter')
-
 module.exports = {
+  test_page: 'tests/index.html?hidepassed',
   disable_watching: true,
-  framework: 'mocha',
   launch_in_ci: [
-    'Chrome',
-    'Firefox'
+    'Chrome'
   ],
   launch_in_dev: [
     'Chrome'
   ],
-  reporter: new Reporter(),
-  test_page: 'tests/index.html?hidepassed'
-}
+  browser_args: {
+    Chrome: {
+      mode: 'ci',
+      args: [
+        // --no-sandbox is needed when running Chrome inside a container
+        process.env.TRAVIS ? '--no-sandbox' : null,
+
+        '--disable-gpu',
+        '--headless',
+        '--remote-debugging-port=0',
+        '--window-size=1440,900'
+      ].filter(Boolean)
+    }
+  }
+};
